@@ -1,0 +1,42 @@
+# Terraform generated files
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*.tfvars
+*.tfvars.json
+.terraformrc
+terraform.rc
+
+# Local configuration files (should not be committed)
+*.auto.tfvars
+*.auto.tfvars.json
+
+# Providers and modules downloaded by Terraform
+.terraform/modules/
+.terraform/providers/
+
+# Editor/IDE specific files (common examples)
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Output and sensitive data (if any)
+*.log
+*.zip
+*.tar.gz
+
+# Specific to cloud provider if you're storing credentials locally (generally not recommended)
+# For AWS, don't commit credentials! Use environment variables or IAM roles.
+# If you *must* have a local credentials file, ensure it's ignored:
+# .aws/credentials
+# .aws/config
+
+# If using terragrunt
+# .terragrunt-cache/
